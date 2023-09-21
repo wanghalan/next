@@ -10,7 +10,6 @@ module.exports = {
   // assetPrefix: isProd ? 'https://wanghalan.github.io/next' : undefined,
   // https://nextjs.org/docs/app/api-reference/next-config-js/basePath
   basePath: isProd ? '/next' : undefined,
-
   output: 'export',
    
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
