@@ -7,7 +7,7 @@ console.log("isProd " + isProd);
 
 module.exports = {
   // Use the CDN in production and localhost for development.
-  assetPrefix: isProd ? 'https://wanghalan.github.io/' : undefined,
+  assetPrefix: isProd ? 'https://wanghalan.github.io' : undefined,
 
   output: 'export',
    
