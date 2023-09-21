@@ -16,7 +16,7 @@ const nextConfig = {
         unoptimized: true
     },
     "compilerOptions": {
-        "baseUrl": "."
+        "baseUrl": "https://wanghalan.github.io/next/"
     }
   }
 
