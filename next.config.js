@@ -14,6 +14,9 @@ const nextConfig = {
     // distDir: 'dist',
     images: {
         unoptimized: true
+    },
+    "compilerOptions": {
+        "baseUrl": "."
     }
   }
 
