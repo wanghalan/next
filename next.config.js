@@ -12,11 +12,10 @@ const nextConfig = {
    
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
+    // Ref: https://github.com/vercel/next.js/issues/19711
     images: {
-        unoptimized: true
-    },
-    "compilerOptions": {
-        "baseUrl": "https://wanghalan.github.io/next/"
+        unoptimized: true,
+        path: "https://wanghalan.github.io/next/images"
     }
   }
 
