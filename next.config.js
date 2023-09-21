@@ -7,7 +7,9 @@ console.log("isProd " + isProd);
 
 module.exports = {
   // Use the CDN in production and localhost for development.
-  assetPrefix: isProd ? 'https://wanghalan.github.io' : undefined,
+  // assetPrefix: isProd ? 'https://wanghalan.github.io/next' : undefined,
+  // https://nextjs.org/docs/app/api-reference/next-config-js/basePath
+  basePath: isProd ? 'https://wanghalan.github.io/next' : undefined,
 
   output: 'export',
    
