@@ -2,7 +2,9 @@
  * @type {import('next').NextConfig}
  */
 const isProd = process.env.NODE_ENV === 'production'
- 
+
+console.log("isProd " + isProd);
+
 module.exports = {
   // Use the CDN in production and localhost for development.
   assetPrefix: isProd ? 'https://wanghalan.github.io/' : undefined,
