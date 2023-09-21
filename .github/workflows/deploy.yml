@@ -71,6 +71,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: print env
         run: ls -la 
+      - name: Set production variable
+        run: export NODE_ENV=production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
